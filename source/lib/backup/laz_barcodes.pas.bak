@@ -1,0 +1,17 @@
+unit laz_barcodes;
+
+interface
+
+uses
+  LazarusPackageIntf;
+
+implementation
+
+procedure Register;
+begin
+end;
+
+initialization
+	RegisterPackage('laz_barcodes', @Register);
+end.
+
